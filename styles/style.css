@@ -145,11 +145,30 @@ padding: 0px;
 /*-------
          spoerts videos start
                  -------- */
+.video-display{
+    display: flex;
+}
 .video-edit{
     padding-top: 100px;
-    padding-left: 60px;
+    padding-left: 100px;
     padding-right: 90px;
 }
 /*-------
         sports videos end
+                 -------- */
+/*-------
+        form starts
+                 -------- */
+.form-style{
+padding-top: 80px;
+padding-left: 70px;
+}
+fieldset{
+    background-color: darkseagreen;
+    font-size: 18px;
+    font-weight: 10px;
+    color: black;
+}
+/*-------
+        form ends
                  -------- */
