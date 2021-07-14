@@ -4,54 +4,62 @@
                    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
                    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
                    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-/* nav styles start */
-                   .menu-section{
-                       display: flex;
-                       justify-content: space-between;
-                       background-color: blue;
-                       margin: 0%;
-                   }
-                   .big-heading{
-                       /* poppins 700  */
-                    font-family: 'Poppins', sans-serif;
-                    color: black;
-                    font-size: 64px;
-                    color: white;
-                    margin-right: 10%;
-                    margin-bottom: 0%;
-                    padding-bottom: 17px;
-                   }
-                   .button{
-                       width: 168px;
-                       height: 44px;
-                       text-decoration: none;
-                       background-color: #E02C6D;
-                       color: white;
-                       /* poppins 500  */
-                       font-family: 'Poppins', sans-serif;
-                       font-size: 16px;
-                       padding: 10px 24px 10px 24px;
-                   }
-                   .menubar-sizing{
-                       padding-top: 207px;
-                       padding-left: 150px;
-                       padding-bottom: 100px;
-                       
-                   }
-                   .transition-hover img{
-                    
-                    width: 556.01px;
-                    height: 438px;
-                    padding-top: 153px;
-                    padding-right: 100px;
-                    padding-bottom: 100px;
-                    overflow: hidden;
-                   }
-                   .menu-section:hover img{
-                       transform: scale(1.1) rotate(15deg);
-                       transition: transform 3s ease-in-out;
-                   }
-/* nav styles end  */
+
+/* -----
+         nav styles start 
+                    --------*/
+ .menu-section{
+   display: flex;
+   justify-content: space-between;
+   background-color: blue;
+   margin: 0%;
+}
+.big-heading{
+    /* poppins 700  */
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 64px;
+    color: white;
+    margin-right: 10%;
+    margin-bottom: 0%;
+    padding-bottom: 17px;
+}
+.button{
+    width: 168px;
+    height: 44px;
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+/* poppins 500  */
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 10px 24px 10px 24px;
+}
+.menubar-sizing{
+    padding-top: 207px;
+    padding-left: 150px;
+    padding-bottom: 100px;
+}
+.transition-hover img{
+                     
+     width: 556.01px;
+     height: 438px;
+     padding-top: 153px;
+     padding-right: 100px;
+     padding-bottom: 100px;
+     overflow: hidden;
+}
+.menu-section:hover img{
+    transform: scale(1.1) rotate(15deg);
+    transition: transform 3s ease-in-out;
+}                  
+/* ----- 
+         nav styles end 
+                   ------- */
+
+/* ----- 
+         players details start 
+                        ------- */
 .player-details{
     width: 330px;
     height: 447px;
@@ -63,8 +71,6 @@
 .player-details img{
     width: 300px;
     height: 256px;
-    
-
 }
 .details{
     padding-left: 15px;
@@ -95,4 +101,43 @@
     column-gap: 30px;
     row-gap: 27px;
 }
-                         
+/* ----- 
+         players details end 
+                        ------- */
+ /* ----- 
+         footer details start 
+                        ------- */
+.footer-icon{
+    width: 480px;
+    height: 213px;
+    padding-top: 158px;
+    padding-left: 410px;
+    padding-right: 430px;
+}
+.icons{
+    float: right;
+    width: 170px;
+    padding-left: 10%;
+    padding-right: 18%;
+    padding-top: 20px;  
+}
+.footer-icon img{
+    width: 483.87px;
+height: 110px;
+padding: 0px;
+}
+.footer-icon h3{
+     /* poppins 400  */
+     font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding-left: 33%;
+    padding-right: 10%;
+    padding-top: 20px;
+}
+#icon-padding{
+    height: 32px;
+    padding-right: 14px;
+}
+/* ----- 
+         footer details end 
+                        ------- */
