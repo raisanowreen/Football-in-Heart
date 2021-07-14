@@ -3,6 +3,7 @@
                    ------*/    
                    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
                    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+                   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 /* nav styles start */
                    .menu-section{
                        display: flex;
@@ -11,12 +12,14 @@
                        margin: 0%;
                    }
                    .big-heading{
+                       /* poppins 700  */
                     font-family: 'Poppins', sans-serif;
                     color: black;
                     font-size: 64px;
                     color: white;
                     margin-right: 10%;
-
+                    margin-bottom: 0%;
+                    padding-bottom: 17px;
                    }
                    .button{
                        width: 168px;
@@ -24,9 +27,10 @@
                        text-decoration: none;
                        background-color: #E02C6D;
                        color: white;
+                       /* poppins 500  */
                        font-family: 'Poppins', sans-serif;
                        font-size: 16px;
-                       padding: 10px;
+                       padding: 10px 24px 10px 24px;
                    }
                    .menubar-sizing{
                        padding-top: 207px;
@@ -48,6 +52,47 @@
                        transition: transform 3s ease-in-out;
                    }
 /* nav styles end  */
+.player-details{
+    width: 330px;
+    height: 447px;
+    background-color:white;
+    box-shadow: 3px 3px 3px 3px grey;  
+    filter: drop-shadow(20px 30px 30px grey);  
+    
+}
+.player-details img{
+    width: 300px;
+    height: 256px;
+    
 
-
+}
+.details{
+    padding-left: 15px;
+    padding-right: 20px;
+    padding: 15px 15px 33px 15px;
+}
+.player-details h1{
+    /* poppins 700 */
+    font-family: 'Poppins', sans-serif;
+    padding-top: 0px;
+    padding-bottom: 0%;
+    font-size: 26px;
+}
+.player-details h3{
+    /* poppins 400  */
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.display-grid{
+    padding-left: 100px;
+    padding-right:210px;
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 27px;
+}
                          
