@@ -10,9 +10,12 @@
                     --------*/
  .menu-section{
    display: flex;
-   justify-content: space-between;
    background-color: blue;
-   margin: 0%;
+}
+.menubar-sizing{
+    padding-top: 207px;
+    padding-left: 150px;
+    padding-bottom: 100px;
 }
 .big-heading{
     /* poppins 700  */
@@ -20,9 +23,6 @@
     color: black;
     font-size: 64px;
     color: white;
-    margin-right: 10%;
-    margin-bottom: 0%;
-    padding-bottom: 17px;
 }
 .button{
     width: 168px;
@@ -35,18 +35,12 @@
     font-size: 16px;
     padding: 10px 24px 10px 24px;
 }
-.menubar-sizing{
-    padding-top: 207px;
-    padding-left: 150px;
-    padding-bottom: 100px;
-}
-.transition-hover img{
-                     
+.transition-hover img{                
      width: 556.01px;
      height: 438px;
      padding-top: 153px;
+     padding-left: 200px;
      padding-right: 100px;
-     padding-bottom: 100px;
      overflow: hidden;
 }
 .menu-section:hover img{
@@ -60,13 +54,22 @@
 /* ----- 
          players details start 
                         ------- */
+.display-grid{
+    padding-left: 180px;
+    padding-right:210px;
+    padding-top: 70px;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 27px;
+                        }
 .player-details{
-    width: 330px;
-    height: 447px;
+    width: 320px;
+    height: 450px;
     background-color:white;
     box-shadow: 3px 3px 3px 3px grey;  
     filter: drop-shadow(20px 30px 30px grey);  
-    
+
 }
 .player-details img{
     width: 300px;
@@ -75,7 +78,7 @@
 .details{
     padding-left: 15px;
     padding-right: 20px;
-    padding: 15px 15px 33px 15px;
+    padding: 12px 17px 33px 11px;
 }
 .player-details h1{
     /* poppins 700 */
@@ -92,83 +95,128 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.display-grid{
-    padding-left: 100px;
-    padding-right:210px;
-    padding-top: 70px;
-    display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    column-gap: 30px;
-    row-gap: 27px;
-}
 /* ----- 
          players details end 
                         ------- */
+
+/*-------
+         sports videos start
+                 -------- */
+.video-display{
+     display: flex;
+}
+.video-edit{
+     padding-top: 100px;
+     padding-left: 180px;
+     padding-right: 210px;
+}
+/*-------
+         sports videos end
+                       -------- */
+/*-------
+        form starts
+                  -------- */
+.form-style{
+     padding-top: 80px;
+     padding-left: 70px;
+}
+fieldset{
+     background-color: darkseagreen;
+     font-size: 18px;
+     font-weight: 10px;
+     color: black;
+}
+/*-------
+      form ends
+                -------- */
  /* ----- 
          footer details start 
                         ------- */
-.footer-icon{
-    width: 480px;
-    height: 213px;
-    padding-top: 158px;
-    padding-left: 410px;
-    padding-right: 430px;
-}
-.icons{
-    float: right;
-    width: 170px;
-    padding-left: 10%;
-    padding-right: 18%;
-    padding-top: 20px;  
+.footer-sizing{
+    padding-top: 100px;
+    padding-left: 470px;
+    padding-bottom: 83px;
 }
 .footer-icon img{
-    width: 483.87px;
-height: 110px;
-padding: 0px;
+    width: 475px;
+    height: 110px;
 }
-.footer-icon h3{
-     /* poppins 400  */
-     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    padding-left: 33%;
-    padding-right: 10%;
+.icons {
     padding-top: 20px;
-}
-#icon-padding{
+    padding-left: 175px;
+}  
+.fab{
+    width: 32px;
     height: 32px;
-    padding-right: 14px;
+    padding-right: 10px;
+}
+.copyright h3{
+    padding-top: 20px;
+    padding-left: 145px;
+} 
+.fa-instagram-square{
+    width: 32px;
+    height: 32px;
 }
 /* ----- 
          footer details end 
                         ------- */
-
-/*-------
-         spoerts videos start
-                 -------- */
+/*-------------- 
+               Media Queries
+                         ------------ */
+/* mobile device */
+@media only screen and (max-width:688px) {
+    .menu-section{
+        flex-direction: column;
+    }
+    .menubar-sizing{
+        width: 100%;
+        padding-top: 50px;
+        padding-left: 8px;
+    }
+    .big-heading{
+    font-size: 38px;
+    }
+    .transition-hover img{
+        width: 300px;
+        height: 255px;
+        padding-top: 40px;
+        padding-left: 18px;
+        padding-bottom: 100px;
+    }
+.display-grid{
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: 0px;
+}
 .video-display{
-    display: flex;
+    flex-direction: column;
 }
 .video-edit{
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-right: 90px;
+    width: 250px;
+    height: 220px;
+    padding-left: 35px;
 }
-/*-------
-        sports videos end
-                 -------- */
-/*-------
-        form starts
-                 -------- */
 .form-style{
-padding-top: 80px;
-padding-left: 70px;
+    width: 300px;
+    padding-left: 8px;
 }
-fieldset{
-    background-color: darkseagreen;
-    font-size: 18px;
-    font-weight: 10px;
-    color: black;
+.footer-sizing{
+    padding-left: 0px;
+    align-content: center;
 }
-/*-------
-        form ends
-                 -------- */
+.footer-icon img{
+    width: 300px;
+    height: 80px;
+    padding-left:0px ;
+}
+.icons{
+    padding-left: 80px;
+}
+.copyright h3{
+    /* poppins 400  */
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 80px;
+}
